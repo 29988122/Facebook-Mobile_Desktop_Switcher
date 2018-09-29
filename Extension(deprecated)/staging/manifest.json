@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "test",
+  "version": "1.0",
+  "description": "Conveniently switch between desktop and mobile version of Facebook",
+
+  "icons": {
+    "48": "border-48.png"
+  },
+
+
+  "background": {
+    "scripts": ["button.js"]
+  }
+  
+  "browser_action": {
+	"default_icon": {
+      "16": "icons/page-16.png",
+      "32": "icons/page-32.png"
+    }
+  }
+  
+  "permissions": [
+  "tabs",
+  "activeTab"
+  ]
+}
